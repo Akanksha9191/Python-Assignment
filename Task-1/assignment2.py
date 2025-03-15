@@ -16,18 +16,13 @@ print(lst)
 # only)
 print()
 menu = int(input("Enter a option: "))
-
+num1 = int(input("Enter first number : "))
+num2 = int(input("Enter second number: "))
 if(menu == 1):
-    num1 = int(input("Enter first number : "))
-    num2 = int(input("Enter second number: "))
     print("Addition of two numbers: ", num1+num2)
 elif(menu == 2 ):
-    num1 = int(input("Enter first number : "))
-    num2 = int(input("Enter second number: "))
     print("Substraction of two numbers: ", num1 - num2)
 elif(menu == 3):
-    num1 = int(input("Enter first number : "))
-    num2 = int(input("Enter second number: "))
     print("Multiplication of two numbers : ", num1*num2)
 else:
     print("Invalid Option")
